@@ -1,0 +1,12 @@
+CREATE DATABASE junitdb;
+CREATE USER junitdb IDENTIFIED BY '123456'; 
+SHOW GRANTS FOR junitdb;
+
+GRANT ALL PRIVILEGES ON junitdb.TO 'junitdb'@'%'; 
+FLUSH PRIVILEGES;
+SHOW GRANTS FOR junitdb;
+
+报错1251执行如下命令：
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER; #修改加密规则 
+ALTER USER 'junitdb'@'%' IDENTIFIED WITH mysql_native_password BY '123';#更新一下用户的密码 
+FLUSH PRIVILEGES; #刷新权限 
