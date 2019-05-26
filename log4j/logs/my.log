@@ -1,0 +1,14 @@
+2019-05-26 12:59:51,085  INFO ApplicationTest:48 ---- Starting ApplicationTest on WIN-MKK49AEUNMI with PID 1488 (C:\Users\Administrator\eclipse-workspace\MySpringBoot\log4j\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\MySpringBoot\log4j)
+2019-05-26 12:59:51,096 DEBUG ApplicationTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-26 12:59:51,097  INFO ApplicationTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-26 12:59:56,076  INFO ApplicationTest:57 ---- Started ApplicationTest in 5.537 seconds (JVM running for 6.706)
+2019-05-26 12:59:56,112  INFO ApplicationTest:28 ---- 输出info
+2019-05-26 12:59:56,115 DEBUG ApplicationTest:29 ---- 输出debug
+2019-05-26 12:59:56,123 ERROR ApplicationTest:30 ---- 输出error
+2019-05-26 13:02:26,187  INFO ApplicationTest:48 ---- Starting ApplicationTest on WIN-MKK49AEUNMI with PID 14136 (C:\Users\Administrator\eclipse-workspace\MySpringBoot\log4j\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\MySpringBoot\log4j)
+2019-05-26 13:02:26,188 DEBUG ApplicationTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-26 13:02:26,189  INFO ApplicationTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-26 13:02:30,330  INFO ApplicationTest:57 ---- Started ApplicationTest in 4.802 seconds (JVM running for 6.215)
+2019-05-26 13:02:30,362  INFO ApplicationTest:28 ---- 输出info
+2019-05-26 13:02:30,363 DEBUG ApplicationTest:29 ---- 输出debug
+2019-05-26 13:02:30,364 ERROR ApplicationTest:30 ---- 输出error
