@@ -1,16 +1,8 @@
-2019-05-26 13:21:48,631  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 5392 (C:\Users\Administrator\eclipse-workspace\MySpringBoot\EhCache\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\MySpringBoot\EhCache)
-2019-05-26 13:21:48,638 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
-2019-05-26 13:21:48,641  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
-2019-05-26 13:21:58,927  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 10.912 seconds (JVM running for 12.535)
-2019-05-26 13:21:59,300 DEBUG UserMapper:62 ---- Cache Hit Ratio [com.didispace.mapper.UserMapper]: 0.0
-2019-05-26 13:22:01,495 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
-2019-05-26 13:22:01,542 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
-2019-05-26 13:22:01,566 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
-2019-05-26 13:24:41,048  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 11880 (C:\Users\Administrator\eclipse-workspace\MySpringBoot\EhCache\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\MySpringBoot\EhCache)
-2019-05-26 13:24:41,050 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
-2019-05-26 13:24:41,051  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
-2019-05-26 13:24:48,593  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 8.272 seconds (JVM running for 9.786)
-2019-05-26 13:24:48,767 DEBUG UserMapper:62 ---- Cache Hit Ratio [com.didispace.mapper.UserMapper]: 0.0
-2019-05-26 13:24:50,078 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
-2019-05-26 13:24:50,121 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
-2019-05-26 13:24:50,160 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
+2019-05-28 09:17:11,511  INFO UserBizImplTest:48 ---- Starting UserBizImplTest on WIN-MKK49AEUNMI with PID 18388 (C:\Users\Administrator\eclipse-workspace\MySpringBoot\EhCache\target\test-classes started by Administrator in C:\Users\Administrator\eclipse-workspace\MySpringBoot\EhCache)
+2019-05-28 09:17:11,527 DEBUG UserBizImplTest:51 ---- Running with Spring Boot v1.3.2.RELEASE, Spring v4.2.4.RELEASE
+2019-05-28 09:17:11,528  INFO UserBizImplTest:666 ---- No active profile set, falling back to default profiles: default
+2019-05-28 09:17:18,531  INFO UserBizImplTest:57 ---- Started UserBizImplTest in 7.856 seconds (JVM running for 9.731)
+2019-05-28 09:17:18,648 DEBUG UserMapper:62 ---- Cache Hit Ratio [com.didispace.mapper.UserMapper]: 0.0
+2019-05-28 09:17:20,154 DEBUG selectByPrimaryKey:145 ---- ==>  Preparing: select id, name, age from user where id = ? 
+2019-05-28 09:17:20,194 DEBUG selectByPrimaryKey:145 ---- ==> Parameters: 1(Long)
+2019-05-28 09:17:20,231 DEBUG selectByPrimaryKey:145 ---- <==      Total: 1
