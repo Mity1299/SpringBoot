@@ -10,18 +10,6 @@ import javax.validation.Valid;
 
 @Controller
 public class HomeController {
-//    @GetMapping("/tvform")
-//    public String loadTvForm(Model model) {
-//        model.addAttribute("tvshow", new Tvshow());
-//        return "tvform";
-//    }
-//
-//    @PostMapping("/tvform")
-//    public String processTvForm(@Valid Tvshow tvshow, BindingResult result) {
-//        if(result.hasErrors())
-//            return "tvform";
-//        return "tvshowconfirm";
-//    }
 
     @GetMapping("/carform")
     public String loadCarForm(Model model) {
@@ -29,16 +17,10 @@ public class HomeController {
         return "carform";
     }
 
-    /*
-     * @PostMapping("/carform") public String processCarForm(@Valid Car car,
-     * BindingResult result) { if(result.hasErrors()) return "carform"; return
-     * "carconfirm"; }
-     */
-    
     @PostMapping("/carform")
     public String processCarForm(@Valid Car car, BindingResult result) {
         if(result.hasErrors())
             return "carform";
-        return "forward:carconfirm";
+        return "carconfirm";
     }
 }
